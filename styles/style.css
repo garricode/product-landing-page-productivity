@@ -100,7 +100,6 @@ p,
 blockquote {
   text-indent: 1.5em;
   text-align: start;
-  font-size: large;
   font-family: inherit;
   font-size: larger;
   display: flex;
@@ -127,7 +126,6 @@ footer {
 #form {
   font-size: large;
   font-family: inherit;
-  font-size: larger;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
