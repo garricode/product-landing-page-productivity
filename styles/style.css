@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 100%;
+  max-width: 100%;
+  line-height: 1.5;
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#header-img {
+  height: 38px;
+  width: 8%;
+  max-width: 10%;
+  float: right;
+}
+
+.responsive-media {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#imac {
+  border: lightgray;
+  border-radius: 5%;
+  border-width: thin;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  background-color: #f3f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d8d4d4;
+}
+
+.nav-link {
+    text-shadow: lightslategray;
+}
+
+p,
+blockquote {
+  text-indent: 1.5em;
+  text-align: start;
+  font-size: large;
+  font-family: inherit;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+footer {
+  text-align: center;
+  font-size: medium;
+  display: block;
+  font-family: inherit;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#form {
+  font-size: large;
+  font-family: inherit;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #d8d4d4;
+}
+
+#submit {
+  color: black;
+  background-color: rgb(213, 231, 236);
+}
