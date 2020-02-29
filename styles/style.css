@@ -14,23 +14,13 @@
 
 body {
   font-family: "Open Sans";
-  font-size: 100%;
+  font-size: 1rem;
   max-width: 100%;
   line-height: 1.5;
   background-color: #fafafa;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
-main {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#header-img {
+#header-img /* that is the logo */ {
   height: 38px;
   width: 8%;
   max-width: 10%;
@@ -39,23 +29,22 @@ main {
 
 .responsive-media {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #imac {
   border: lightgray;
-  border-radius: 5%;
+  border-radius: 2%;
   border-width: thin;
+  box-shadow: 5px 5px 2px lightgray;
 }
 
-header {
-  width: 90%;
+header /* Inside of this element is the nav */ {
   display: flex;
   justify-content: center;
-
   align-items: center;
 }
 
@@ -82,7 +71,6 @@ li {
 
 li a {
   display: block;
-
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -96,22 +84,53 @@ li a:hover {
   text-shadow: lightslategray;
 }
 
+#about-section {
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#details-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#form-section {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 p,
 blockquote {
-  text-indent: 1.5em;
-  text-align: start;
+  text-align: center;
   font-family: inherit;
-  font-size: larger;
+  font-size: x-large;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  white-space: normal;
 }
 
 h1 {
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: bold;
   font-family: inherit;
+  white-space: normal;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  white-space: normal;
 }
 
 footer {
@@ -119,20 +138,28 @@ footer {
   font-size: medium;
   display: block;
   font-family: inherit;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 #form {
-  font-size: large;
   font-family: inherit;
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
-  background-color: #d8d4d4;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input {
+  font-size: x-large;
 }
 
 #submit {
-  color: black;
-  background-color: rgb(213, 231, 236);
+  color: rgb(235, 237, 245);
+  background-color: #1e90ff;
+  font-size: xx-large;
+  margin-top: 2%;
 }
